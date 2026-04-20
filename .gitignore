@@ -1,0 +1,13 @@
+# Ignores compiled files and only tracks source code
+
+# Compiled files
+*.o
+*.out
+*.exe
+a.out
+
+# Build directory
+build/
+
+# VS Code settings
+.vscode/
