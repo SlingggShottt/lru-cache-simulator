@@ -33,7 +33,7 @@ int LRUCache::get(int key){
 
 // put() function
 // Inserts into the cache
-// Evict from last is full
+// Evict from last if full
 void LRUCache::put(int key, int value){
 
     // If key already exists
