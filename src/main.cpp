@@ -71,6 +71,7 @@ void runSimulation(){
         if ((i + 1) % 1000 == 0) { // i+1 as we started from i=0
             cout << "After " << setw(5) << (i + 1) << " queries → "; // setw() is for formatting - pads the number to 5 character wide so output aligns neatly
             cache.printCache();
+            cout << endl;
         }
     }
 
