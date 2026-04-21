@@ -11,3 +11,11 @@ build/
 
 # VS Code settings
 .vscode/
+
+# Python
+visualizer/backend/venv/
+visualizer/backend/__pycache__/
+visualizer/backend/*.pyc
+
+# Node (for later when we add React)
+visualizer/frontend/node_modules/
